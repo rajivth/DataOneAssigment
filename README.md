@@ -1,5 +1,5 @@
 
-#Movie Dash Board Web Interface
+# Movie Dash Board Web Interface
 
 Movie Dash Board Web Interface is a system for track down of movies for thier assocation of director , actress/actresses ,and review.
 
@@ -12,7 +12,7 @@ Movie Dash Board Web Interface is a system for track down of movies for thier as
 *	Docker version 18.XX.XX
 
 
-### Installing
+### Installation
 1.	Without Docker
 
 ```
@@ -77,7 +77,13 @@ Movie Dash Board Web Interface is a system for track down of movies for thier as
 	DOCKER_PORT
 	MICRO_SERVICE_PORT
 	nameOfjar
-	
 
+	
+Note - ### Swagger-ui for developer Use only below url ####
+
+		HostName:MICRO_SERVICE_PORT/swagger-ui.html
+		eg :
+		HostName - Hostname is either your Application host name or IP address of application running
+		MICRO_SERVICE_PORT - movieService of port number 9081 
 
 
