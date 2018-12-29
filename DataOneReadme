@@ -1,1 +1,49 @@
-Data One Assigment
+# Project Title
+
+Movie Dash Board Web Interfac
+
+## Getting Started
+
+Movie Dash Board Web Interface is a system for track down of movies history for assocation of director , actress/actresses ,and thier review.
+
+### Prerequisites
+
+1.	Without Docker
+	Min Requirement of Software JDK 1.8 / JRE1.8 (Window System)
+
+2.	With Docker.  
+	Docker version 18.XX.XX
+
+
+### Installing
+1.	Without Docker
+```
+	Download Jdk 1.8 oracle Site as per your window system supportable(32 /64) bit 
+	Install JDK 1.8 using binary  setup & Setup Java  home path using environment variable 
+	Note: for installation JDK 1.8 and environment variable setting please ref below link
+	https://www.guru99.com/install-java.html
+	Open command prompt either using (window option + R) or go start button window and type cmd
+	Verifying install java version on command prompt using type java -version
+	Extract on dataOneio.zip on local System 
+	Run the jar file of project using following command
+	java -jar [location of jar file Project]
+	Eg - java -jar E:dataOneio/userAccountService_9080-0.0.1-SNAPSHOT.jar
+
+	Running two remaing jar files using above step [java -jar NameOfJar.jar]
+	reviewService_9083-0.0.1-SNAPSHOT
+	movieService_9081-0.0.1-SNAPSHOT
+
+```
+2.  With Docker
+	Install Docker on your system below link
+https://docs.docker.com/toolbox/toolbox_install_windows  
+
+	Checking docker in system using docker -v
+	Creating docker container using docker command
+build -f Dockerfile -t movieService_9081-0.0.1-SNAPSHOT.jar .
+Note: current directory .T-tag name 
+	Docker run -p 9080:9080 movieService_9081-0.0.1-SNAPSHOT.jar
+
+
+
+
