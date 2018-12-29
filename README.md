@@ -1,12 +1,9 @@
-# Project Title
 
-Movie Dash Board Web Interface
+#Movie Dash Board Web Interface
 
-## Getting Started
+Movie Dash Board Web Interface is a system for track down of movies for thier assocation of director , actress/actresses ,and review.
 
-Movie Dash Board Web Interface is a system for track down of movies history for assocation of director , actress/actresses ,and thier review.
-
-### Prerequisites
+### Installation Requirement
 
 1.	Without Docker
 *	Min Requirement of Software JDK 1.8 / JRE1.8 (Window System)
@@ -17,6 +14,7 @@ Movie Dash Board Web Interface is a system for track down of movies history for 
 
 ### Installing
 1.	Without Docker
+
 ```
 *	Download Jdk 1.8 binary setup from oracle Site as per your window system supportable(32 /64) bit 
 *	Install JDK 1.8 using binary  setup & setting environment variable for java 
@@ -80,6 +78,3 @@ Movie Dash Board Web Interface is a system for track down of movies history for 
 	MICRO_SERVICE_PORT
 	nameOfjar
 	
-
-
-
